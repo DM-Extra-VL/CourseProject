@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Service</title>
+    <link rel="stylesheet" href="FakeRegLog.css">
+    <script src="NumCheck.js"></script>
+</head>
+<body>
+    <div>
+   
+    <div class="auth-container">
+        <h2>Войти</h2>
+        <form id="loginForm">
+            <label for="phone">Номер телефона:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+
+            <button type="submit">Войти</button>
+        </form>
+        <div id="errorModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="errorMessage">Такой номер телефона и/или пароль неверны</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ToMain"><a href="FirstPage.html" style="text-decoration: none;">На главную</a></div>
+
+</div>
+
+   
+</body>
+</html>

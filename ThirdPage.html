@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Service</title>
+    <script src="Func.js"></script>
+    <style>
+        A{color: black;}
+        A:visited{color: black;}
+        A{text-decoration: none;}
+    </style>
+
+    <link rel="stylesheet" href="StileThirdPage.css">
+</head>
+<body class="BodyMain">
+     <!-- навигационный блок -->
+   <div class="NavMenu">
+
+    <div class="NavMain1">
+        <!-- Левый блок навигации -->
+        <div class="NavDiv1">
+            <h1 class="Position">Служба занятости</h1> 
+            <img src="images/kjuj.svg"  class="Logo">
+        </div>
+
+        <div class="NavDiv2">
+            <div class="nav_item"> <a href="FirstPage.html" style="text-decoration: none;">Главная </a></div>
+            <div class="nav_item"> <a href="ThirdPage.html" style="text-decoration: none;"> Вакансии </a></div>
+            <div class="nav_item"> <a href="FourthPage.html" style="text-decoration: none;">Поиск содрудников </a></div>
+            <div class="nav_item"> <a href="SecondPahge.html" style="text-decoration: none;">Информация </a>
+            </div>
+        </div>
+        <!-- Левый блок навигации -->
+    </div>
+
+    <!-- Правый блок навигации -->
+    <div class="NavMain2">
+        <div class="BlockRegLog">
+            <div class="LogReg"><a href="FakeRegLog.html">Вход</a></div>
+        </div>
+
+        <!-- бургер+меню -->
+        <div class="burger" onclick="toggleMenu()">
+            <div class="MenuText">Меню</div>
+            <div class="ImgDiv"><img src="images/hamburger-menu-icon-svg-14-removebg-preview.png" class="BurgerImg"></div>
+        </div>
+
+        <div id="menu" class="menu">
+            <ul>
+                <li ><a href="FirstPage.html">Главная</a></li>
+                <li><a href="ThirdPage.html">Вакансии</a></li>
+                <li><a href="FourthPage.html">Поиск сотрудников</a></li>
+                <li><a href="SecondPahge.html">Информация</a></li>
+                <li><a href="FakeRegLog.html">Вход</a></li>
+            </ul>
+        </div>
+        <div id="overlay" class="overlay" onclick="closeMenu()"></div>
+
+    </div>
+    <!-- правый блок навигации -->
+
+   </div>
+    <!-- конец навигационного блока -->
+
+    <div class="Conteiner">
+
+            <div class="HText">Доступные вакансии</div>
+            
+
+        <div class="GridCont">
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/1.svg" class="ImgImg"></div>
+                <div class="TextItem">Столяр
+                    <p>На этой профессии вы будете создавать уникальные деревянные изделия, такие как мебель, элементы интерьера и строительные конструкции. Ваша работа будет включать в себя выбор подходящих материалов, использование различных инструментов и техник обработки древесины для того, чтобы воплотить в жизнь задуманный дизайн и обеспечить качество и долговечность продукции.</p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/2.svg" class="ImgImg"></div>
+                <div class="TextItem"> Электрик
+                    <p>На этой профессии вы будете заниматься установкой, ремонтом и обслуживанием электрических систем. Ваши обязанности будут включать проведение электропроводки, монтаж и подключение различных электроприборов и оборудования, а также поиск и устранение неисправностей для обеспечения безопасного и эффективного функционирования электрических сетей</p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/3.svg" class="ImgImg"></div>
+                <div class="TextItem">Повар
+                    <p>На этой профессии вы будете заниматься приготовлением и обработкой пищи в ресторанах, кафе и других заведениях общественного питания. Ваша работа будет включать в себя разработку меню, приготовление блюд с соблюдением рецептурных норм и стандартов безопасности питания, а также контроль качества и подачу блюд по заказам клиентов</p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/4.svg" class="ImgImg"></div>
+                <div class="TextItem">Монтажник сантехнических систем
+                    <p>На этой профессии вы будете заниматься установкой, ремонтом и обслуживанием сантехнического оборудования, трубопроводов, систем отопления и водоснабжения. Ваши обязанности будут включать в себя установку сантехнических сооружений, подключение канализационных и водопроводных систем </p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/5.svg" class="ImgImg"></div>
+                <div class="TextItem">Швея
+                    <p>На этой профессии вы будете заниматься пошивом и ремонтом одежды, изготовлением текстильных изделий и работой с швейным оборудованием. Ваша работа будет включать в себя создание выкроек, маркировку тканей, сшивание и отделку одежды, а также ремонт и модификацию готовых изделий в соответствии с пожеланиями клиентов</p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/6.svg" class="ImgImg"></div>
+                <div class="TextItem">Мастер по ремонту техники
+                    <p>На этой профессии вы будете заниматься диагностикой и ремонтом бытовой и компьютерной техники, а также устранением неисправностей в различных устройствах и приборах. Ваша работа будет включать в себя анализ симптомов неисправности, разборку и ремонт компонентов, замену деталей, а также тестирование и настройку оборудования для обеспечения его правильной работы</p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/7.svg" class="ImgImg"></div>
+                <div class="TextItem">Маляр
+                    <p>На этой профессии вы будете заниматься подготовкой поверхностей и нанесением красок на стены, потолки и другие поверхности в помещениях и на открытом воздухе. Ваша работа будет включать в себя шлифовку, шпатлевку и окраску различных поверхностей, выбор и смешивание красок
+                    </p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/8.svg" class="ImgImg"></div>
+                <div class="TextItem">Слесарь-сантехник
+                    <p>На этой профессии вы будете заниматься монтажом, ремонтом и обслуживанием сантехнического оборудования, а также установкой сантехнических сооружений. Ваши обязанности будут включать в себя установку и ремонт сантехнических приборов, подключение трубопроводов, настройку и проверку работы систем водоснабжения и отопления, а также поиск и устранение утечек</p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/9.svg" class="ImgImg"></div>
+                <div class="TextItem">Автослесарь 
+                    <p>На этой профессии вы будете заниматься техническим обслуживанием и ремонтом автомобилей. Ваши обязанности будут включать в себя диагностику и устранение неисправностей, замену деталей и расходных материалов, а также обслуживание и регулировку различных узлов и механизмов автомобиля для обеспечения его надежной и безопасной эксплуатации</p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/10.svg" class="ImgImg"></div>
+                <div class="TextItem">Флорист
+                    <p>На этой профессии вы будете создавать красивые букеты и композиции из живых и искусственных цветов. Ваша работа будет включать в себя выбор и подготовку цветочных материалов, компоновку и оформление букетов и аранжировку цветов в букеты, корзины, вазы и другие декоративные элементы, а также уход за растениями и цветочными композициями</p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/11.svg" class="ImgImg"></div>
+                <div class="TextItem">Официант
+                    <p>На этой профессии вы будете обслуживать посетителей в ресторанах, кафе и барах. Ваши обязанности будут включать в себя приветствие и сопровождение гостей к столу, прием заказов, подачу блюд и напитков, а также уход за клиентами и обеспечение качественного сервиса</p></div>
+            </div>
+
+            <div class="GridItem">
+                <div class="ImgItem"><img src="images/профессии/12.svg" class="ImgImg"></div>
+                <div class="TextItem">Автомеханик 
+                    <p>На этой профессии вы будете заниматься ремонтом и обслуживанием автомобилей. Ваши обязанности будут включать в себя диагностику и устранение неисправностей в различных системах и узлах автомобиля, замену деталей и расходных материалов</p></div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- Начало футера-->
+<div class="footer">
+    <div class="Foot1">
+        <p>Тел. поддержки: +375 29 639 62 51</p>
+        <p>Viber: +375 29 639 62 51</p>
+        <p>Whatsapp: +375 29 639 62 51</p>
+    </div>
+
+    <div class="Foot2">
+        <p>Наши спонсоры</p>
+        <p>
+            <img src="images/images-Photoroom.png-Photoroom.png" class="ImgFoot" >
+
+            <img src="images/purina.svg" class="ImgFoot">
+
+            <img src="images/tiktok-1.svg" class="ImgFoot">
+        </p>
+
+    </div>
+</div>
+<!-- конец футера -->
+    
+</body>
+</html>

@@ -1,0 +1,540 @@
+
+.BodyMain
+{
+    font-family: "RobotoRegular";
+    height: 1270px;
+    width: 100%;
+    background-color: #FCFF7D;
+    margin: 0px;
+}
+
+.burger
+{
+    display: none;
+}
+.menu
+{
+    display: none;
+}
+.NavMenu
+{
+    /* фиксируем меню и подымаем его на несколько уровней для правильного наложения */
+    position: fixed;
+    z-index: 5; 
+
+    display: flex;
+    width: 100%;
+    height: 130px;
+    background-color: #FFFDF6;
+    margin: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);   
+}
+
+.NavDiv1
+{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 60px;
+    font-size: 1.5vw;
+    background-color: #FFFFFF;
+    border-right: #FCFF51 9px solid;
+    border-bottom: #FCFF51 9px solid;
+    border-bottom-right-radius:20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.Position
+{
+    margin: 10px;
+    font-weight: bold;
+}
+.Logo
+{
+    margin-left: 10px;
+    height: 100%;
+}
+
+.NavDiv2
+{
+    margin-top: 2vh;
+    margin-bottom: 2vh; 
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.NavMain1
+{
+    margin: 0px;
+    display: inline-block;
+    width: 70%;
+    height: 160px;
+}
+.NavMain2
+{
+    position: relative;
+    height: 130px;
+    margin: 0px;
+    display: inline-block;
+    width: 30%;
+    align-items: center;
+    
+}
+
+.nav_item
+{
+    font-size: 1.5vw;
+    white-space: nowrap;
+    width: 15vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+   padding-bottom: 20px;
+}
+
+.BlockRegLog
+{
+    padding-bottom: 1vh;
+    font-size: 1.5vh;
+    margin: auto;
+    margin-top: 2vh;
+    width: 15vw;
+    height: 60%;
+    background-color: #FCFF51;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+.LogReg
+{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 10%;
+    text-align: center;
+    height: 30%;
+    display: inline-block;
+    width: 100%;
+}
+
+.BodyH
+{
+    display: block;
+    height: 72vw;
+    width: 100%;
+   
+}
+
+.border
+{
+    transform: translateY(-20px);
+    width: 100%;
+    height: 2vh;
+    background-color: black;
+    margin: 0px;
+}
+
+.BottomH
+{
+    height: 95vh;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.I1
+{
+    background-color: black;
+    width: 10%;
+    height: 10vw;
+    margin: auto;
+}
+
+.img1
+{
+    height: 80%;
+    width: 80%;
+    margin: 1vw;
+}
+
+.borderI1
+{
+    margin: auto;
+    width: 80%;
+    height: 90px;
+    background-color: black;
+    transform: translateY(-1px);
+}
+
+.textIDN
+{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    font-size: 3.5vh;
+    color: white;
+    padding-top: 2%;
+}
+
+.ConteinerMain
+{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    width: 80%;
+    height: 45vh;
+   
+    margin: auto;
+    grid-gap: 2%;
+    margin-bottom: 40px;
+}
+
+.ContItem
+{
+    text-align: center;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+
+    transform: translateY(-2px);
+
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+}
+
+.hBot1
+{
+    padding: 5px;
+    word-wrap: break-word;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.hBot2
+{
+    padding: 5px;
+    word-wrap: break-word;
+    font-size: 2.2vh;
+}
+
+.footer
+{
+    background-color: #FFFFF4;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding: 0;
+}
+
+.Foot1
+{
+    margin: 0px;
+    height: 100%;
+    width: 45%;
+    padding-left: 40px;
+    text-align: left;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1vh;
+}
+
+.border2
+{
+    width: 100%;
+    height: 2vh;
+    background-color: black;
+    margin: 0px;
+}
+.Foot2
+{
+    margin: 0px;
+    height: 100%;
+    width: 45%; 
+    padding-left: 40px;
+    display: inline-block;
+    font-size: 1vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.ImgFoot
+{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 720px)
+{
+    .Lypa
+    {
+        height: 70vh;
+    }
+
+    .BodyH
+    {
+        height: 70vh;
+    }
+
+    .BottomH
+    {
+        transform: translateY(-2px);
+        height: 100vh;
+    }
+
+    .hBot1
+    {
+        font-size: 2.4vh;
+    }
+
+    .hBot2
+    {
+        font-size: 1.8vh;
+    }
+}
+
+@media screen and (max-width: 426px)
+{
+    .BodyMain
+    {
+        height: 900px;
+    }
+    .ConteinerMain
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 18vh 18vh 18vh;
+        width: 100%;
+        height: 60vh;
+    
+        margin: auto;
+        grid-gap: 2%;
+        margin-bottom: 40px;
+    }
+    .ContItem
+    {
+        border: 10px black solid;
+        height: 18vh;
+        border-radius: 0px;
+        padding-left: 5px;
+    }
+    .hBot1
+    {
+        font-size: 2vh;
+    }
+    .hBot2
+    {
+        font-size: 1.5vh;
+    }
+
+    .NavDiv2
+    {
+        display: none;
+    }
+    .NavMenu
+    {
+        height: 100px;
+        margin: 0px;
+        width: 100vw;
+    }
+    .NavMain1
+    {
+        margin: 0px;
+        height: 100%;
+        background-color: #FCFF51;
+        width: 60%;
+    }
+
+    .NavMain2
+    {
+        width: 40%;
+        margin: 0px;
+    }
+
+    .NavDiv1
+    {
+        width: 80%;
+        font-size: 0.6vh;
+        height: 60%;
+        margin: auto;
+        border: 4px solid black ;
+        border-radius: 6px;
+        margin-top: 1.5vh;
+    }
+
+    .BlockRegLog
+    {
+        display: none;
+    }
+
+    .BodyH
+    {
+        height: 60vh;
+        width: 100%;
+        
+    }
+
+    .border
+    {
+        display: none;
+    }
+
+    .border2
+    {
+        display: none;
+    }
+
+    .Lypa
+    {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .hBot1
+    {   
+        padding-left: 2px;
+        text-align: left;
+        font-size: 2vh;
+        padding: 0px;
+    }
+    .hBot2
+    {
+        padding-left: 2px;
+        text-align: left;
+        padding: 0px;
+    }
+
+    .BodyH
+    {
+        height: 50vh;
+    }
+
+   .I1
+   {
+    margin: 0px;
+   }
+
+   .borderI1
+   {
+    margin: 0px;
+    width: 100%;
+    height: 6vh;
+   }
+
+   .textIDN
+   {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 2.5vh;
+   }
+
+   .ConteinerMain
+   {
+   margin: 0px;
+   }
+
+   .BottomH
+   {
+    height: 75vh;
+   }
+   
+   .footer
+   {
+    height: 70px;
+   }
+
+   .ImgFoot
+   {
+    height: 25px;
+    width: 25px;
+   }
+
+   .burger
+   {
+    width: 40%;
+    display: inline-block;
+   }
+  .BurgerImg
+  {
+    width: 35px;
+    height: 35px;
+  }
+
+  .NavMain2
+  {
+    height: 100px;
+  }
+  .burger
+  {
+    
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 100px;
+  }
+
+  .MenuText
+  {
+   padding-top: 50px;
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+  }
+
+  .ImgDiv
+  {
+    box-sizing: border-box;
+    padding-top: 40px;
+    margin-right: 5px;
+    width: 20%;
+    display: inline-block;
+  }
+
+  .menu {
+    font-size: 5vw;
+    display: none;
+    position: fixed;
+   
+    width: 40%;
+    height: 60%;
+   top: 0;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+   
+    background-color: #FCFF51;
+    
+    padding: 10px;
+    z-index: 999;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+li
+{
+    font-weight: bold;
+   text-decoration: none;
+    margin-bottom: 40px;
+}
+ul
+{
+
+    padding: 15px;
+}
+p
+{
+    margin: 4px;
+}
+}
+
+@font-face
+{
+    font-family: "RobotoRegular";
+    src: url(fonts/RobotoCondensed-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

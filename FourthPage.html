@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Service</title>
+    <script src="Func.js"></script>
+    <style>
+        A{color: black;}
+        A:visited{color: black;}
+        A{text-decoration: none;}
+    </style>
+
+    <link rel="stylesheet" href="StileFourthPage.css">
+    
+</head>
+<body class="BodyMain">
+
+    <!-- навигационный блок -->
+   <div class="NavMenu">
+
+    <div class="NavMain1">
+        <!-- Левый блок навигации -->
+        <div class="NavDiv1">
+            <h1 class="Position">Служба занятости</h1> 
+            <img src="images/kjuj.svg"  class="Logo">
+        </div>
+
+        <div class="NavDiv2">
+            <div class="nav_item"> <a href="FirstPage.html" style="text-decoration: none;">Главная </a></div>
+            <div class="nav_item"><a href="ThirdPage.html" style="text-decoration: none;">Вакансии</a></div>
+            <div class="nav_item"> <a href="FourthPage.html" style="text-decoration: none;">Поиск содрудников </a></div>
+            <div class="nav_item"> <a href="SecondPahge.html" style="text-decoration: none;">Информация </a>
+            </div>
+        </div>
+        <!-- Левый блок навигации -->
+    </div>
+
+    <!-- Правый блок навигации -->
+    <div class="NavMain2">
+        <div class="BlockRegLog">
+            <div class="LogReg"><a href="FakeRegLog.html">Вход</a></div>
+        </div>
+
+        <!-- бургер+меню -->
+        <div class="burger" onclick="toggleMenu()">
+            <div class="MenuText">Меню</div>
+            <div class="ImgDiv"><img src="images/hamburger-menu-icon-svg-14-removebg-preview.png" class="BurgerImg"></div>
+        </div>
+
+        <div id="menu" class="menu">
+            <ul>
+                <li ><a href="FirstPage.html">Главная</a></li>
+                <li><a href="ThirdPage.html">Вакансии</a></li>
+                <li><a href="FourthPage.html">Поиск сотрудников</a></li>
+                <li><a href="SecondPahge.html">Информация</a></li>
+                <li><a href="FakeRegLog.html">Вход</a></li>
+            </ul>
+        </div>
+        <div id="overlay" class="overlay" onclick="closeMenu()"></div>
+
+       
+    </div>
+    <!-- правый блок навигации -->
+
+   </div>
+    <!-- конец навигационного блока -->
+    
+    <div class="FOrmBody">
+       
+            <div class="HHH111">Заполните форму и мы подыщем вам сотрудника</div>
+        <form class="FormAAA">
+            
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name"><br><br>
+    
+            <label for="surname">Фамилия:</label>
+            <input type="text" id="surname" name="surname"><br><br>
+    
+            <label for="patronymic">Отчество:</label>
+            <input type="text" id="patronymic" name="patronymic"><br><br>
+    
+            <label for="organization">Организация:</label>
+            <input type="text" id="organization" name="organization"><br><br>
+    
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+    
+            <label for="email">Почта:</label>
+            <input type="email" id="email" name="email"><br><br>
+    
+            <label for="profession">Требуемая профессия:</label>
+            <input type="text" id="profession" name="profession"><br><br>
+    
+            <label for="experience">Стаж работы сотрудника:</label>
+            <input type="text" id="experience" name="experience"><br><br>
+    
+            <input class="submit" type="submit" value="Подтвердить">
+        </form>
+
+
+    </div>
+
+    <!-- Начало футера-->
+<div class="footer">
+    <div class="Foot1">
+        <p>Тел. поддержки: +375 29 639 62 51</p>
+        <p>Viber: +375 29 639 62 51</p>
+        <p>Whatsapp: +375 29 639 62 51</p>
+    </div>
+
+    <div class="Foot2">
+        <p>Наши спонсоры</p>
+        <p>
+            <img src="images/images-Photoroom.png-Photoroom.png" class="ImgFoot" >
+
+            <img src="images/purina.svg" class="ImgFoot">
+
+            <img src="images/tiktok-1.svg" class="ImgFoot">
+        </p>
+
+    </div>
+</div>
+<!-- конец футера -->
+</body>
+</html>
