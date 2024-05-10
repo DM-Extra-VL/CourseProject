@@ -205,22 +205,22 @@ input
 {
     box-sizing: border-box;
     margin: 0px;
-  
-    width: 45%;
+    height: 100px;
+    width: 40%;
     padding-left: 40px;
     text-align: left;
     display: inline-block;
     color: rgba(0, 0, 0, 0.7);
-    font-size: 1vh;
+    font-size: 1.8vw;
 }
 .Foot2
 {
     margin: 0px;
-    height: 150px;
-    width: 45%; 
+    height: 130px;
+    width: 50%; 
     padding-left: 40px;
     display: inline-block;
-    font-size: 1vh;
+    font-size: 2vh;
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -249,7 +249,16 @@ input
         margin: 0px;
         height: 100%;
         background-color: #FCFF51;
-        width: 60%;
+        width: 100%;
+    }
+    .Position
+    {
+        font-size: 4vw;
+    }
+
+    .Logo
+    {
+        height: 15vw;
     }
 
     .NavMain2
@@ -314,9 +323,9 @@ input
  
    .ImgDiv
    {
+     margin-right: 20px;
      box-sizing: border-box;
      padding-top: 40px;
-     margin-right: 5px;
      width: 20%;
      display: inline-block;
    }
@@ -334,12 +343,17 @@ input
 
    .Foot1
    {
-    font-size: 1.5vw;
+    height: 60px;
+    font-size: 2vw;
+    width: 49%;
+    padding-left: 10px;
    }
    .Foot2
    {
+    width: 40%;
+    padding-left: 10px;
     height: 70px;
-    font-size: 1.5vw;
+    font-size: 3vw;
    }
 
 
@@ -400,6 +414,7 @@ input
     width: 40%;
     height: 60%;
    top: 0;
+   right: 0;
     border-left: 4px solid black;
     border-bottom: 4px solid black;
    

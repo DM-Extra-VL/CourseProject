@@ -265,7 +265,7 @@
     text-align: left;
     display: inline-block;
     color: rgba(0, 0, 0, 0.7);
-    font-size: 1vh;
+    font-size: 2vw;
 }
 .Foot2
 {
@@ -274,7 +274,7 @@
     width: 45%; 
     padding-left: 40px;
     display: inline-block;
-    font-size: 1vh;
+    font-size: 2vh;
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -288,7 +288,7 @@
 {
     .Text1
     {
-        height: 75vw;
+        height: 80vw;
     }
 }
 @media screen and (max-width: 426px)
@@ -341,7 +341,7 @@
         margin: 0px;
         height: 100%;
         background-color: #FCFF51;
-        width: 60%;
+        width: 100%;
     }
 
     .NavMain2
@@ -350,6 +350,15 @@
         margin: 0px;
     }
 
+    .Position
+    {
+        font-size: 4vw;
+    }
+
+    .Logo
+    {
+        height: 15vw;
+    }
     .NavDiv1
     {
         width: 80%;
@@ -405,13 +414,13 @@
    }
  
    .ImgDiv
-   {
-     box-sizing: border-box;
-     padding-top: 40px;
-     margin-right: 5px;
-     width: 20%;
-     display: inline-block;
-   }
+  {
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    width: 20%;
+    display: inline-block;
+  }
    .footer
    {
     font-size: 2vw;
@@ -426,12 +435,12 @@
 
    .Foot1
    {
-    font-size: 1.5vw;
+    font-size: 2vw;
    }
    .Foot2
-   {
-    font-size: 1.5vw;
-   }
+    {
+        font-size: 3vw;
+    }
   
 
    .menu {
@@ -442,6 +451,7 @@
     width: 40%;
     height: 60%;
    top: 0;
+   right: 0;
     border-left: 4px solid black;
     border-bottom: 4px solid black;
    

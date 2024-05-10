@@ -126,7 +126,7 @@
 
 .border
 {
-    transform: translateY(-20px);
+    transform: translateY(-17px);
     width: 100%;
     height: 2vh;
     background-color: black;
@@ -169,7 +169,7 @@
     width: 100%;
     height:100%;
     text-align: center;
-    font-size: 3.5vh;
+    font-size: 3.5vw;
     color: white;
     padding-top: 2%;
 }
@@ -203,7 +203,7 @@
 {
     padding: 5px;
     word-wrap: break-word;
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-weight: bold;
 }
 
@@ -211,7 +211,7 @@
 {
     padding: 5px;
     word-wrap: break-word;
-    font-size: 2.2vh;
+    font-size: 1.7vw;
 }
 
 .footer
@@ -232,7 +232,17 @@
     text-align: left;
     display: inline-block;
     color: rgba(0, 0, 0, 0.7);
-    font-size: 1vh;
+    font-size: 2vw;
+}
+.Foot2
+{
+    margin: 0px;
+    height: 100%;
+    width: 45%; 
+    padding-left: 40px;
+    display: inline-block;
+    font-size: 2vh;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .border2
@@ -242,16 +252,7 @@
     background-color: black;
     margin: 0px;
 }
-.Foot2
-{
-    margin: 0px;
-    height: 100%;
-    width: 45%; 
-    padding-left: 40px;
-    display: inline-block;
-    font-size: 1vh;
-    color: rgba(0, 0, 0, 0.7);
-}
+
 
 .ImgFoot
 {
@@ -261,6 +262,11 @@
 
 @media screen and (max-width: 720px)
 {
+
+    .textIDN
+    {
+        font-size: 2vw;
+    }
     .Lypa
     {
         height: 70vh;
@@ -279,12 +285,12 @@
 
     .hBot1
     {
-        font-size: 2.4vh;
+        font-size: 2vh;
     }
 
     .hBot2
     {
-        font-size: 1.8vh;
+        font-size: 1.7vw;
     }
 }
 
@@ -346,6 +352,16 @@
         margin: 0px;
     }
 
+    .Position
+    {
+        font-size: 4vw;
+    }
+
+    .Logo
+    {
+        height: 15vw;
+    }
+
     .NavDiv1
     {
         width: 80%;
@@ -360,6 +376,14 @@
     .BlockRegLog
     {
         display: none;
+    }
+    .Foot1
+    {
+     font-size: 2vw;
+    }
+    .Foot2
+    {
+        font-size: 3vw;
     }
 
     .BodyH
@@ -479,9 +503,9 @@
 
   .ImgDiv
   {
+    margin-right: 20px;
     box-sizing: border-box;
     padding-top: 40px;
-    margin-right: 5px;
     width: 20%;
     display: inline-block;
   }
@@ -494,6 +518,7 @@
     width: 40%;
     height: 60%;
    top: 0;
+   right: 0;
     border-left: 4px solid black;
     border-bottom: 4px solid black;
    
